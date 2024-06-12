@@ -605,3 +605,13 @@
 #     print('최고 점수:', max)
 #     print('최저 점수:', min)
 #     print('평균 점수:', sum/len(score))
+
+
+
+
+
+
+
+
+
+안녕

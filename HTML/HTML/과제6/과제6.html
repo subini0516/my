@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tbox6</title>
+    <style>            
+        .header {
+            width: 750px; height: 100px;
+            border: 3px solid orange;
+            margin: 30px 50px 50px 23px;
+            line-height: 60px;
+            text-align: center;
+            background-color:bisque;
+        }
+
+        .main {
+            width: 750px; height: 450px;
+            border: 3px solid orange;
+            margin: -40px 50px 50px 23px;
+        }
+
+        .menu {
+            width: 130px; height: 405px;
+            border: 3px solid orange;
+            margin: 15px 50px 50px 13px;
+            line-height: 350px;
+            position: absolute;
+            text-align: center;
+        }
+
+        .menu1 {
+            width: 100px; height: 60px;
+            border: 3px solid orange;
+            margin: 30px 50px -30px 13px;
+            position: absolute;
+            line-height: 30px;
+            text-align: center;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e569a+28,2a87d8+50,7eb8e8+81 */
+background: linear-gradient(to bottom,  #1e569a 28%,#2a87d8 50%,#7eb8e8 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+        }
+
+        .menu2 {
+            width: 100px; height: 60px;
+            border: 3px solid orange;
+            left: 1px; top: 90px;
+            margin: 30px 50px -30px 13px;
+            position: absolute;
+            line-height: 30px;
+            text-align: center;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9a8f1e+28,d8bb2a+50,e8d57e+81 */
+background: linear-gradient(to bottom,  #9a8f1e 28%,#d8bb2a 50%,#e8d57e 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+        }
+
+        .menu3 {
+            width: 100px; height: 60px;
+            border: 3px solid orange;
+            left: 1px; top: 185px;
+            margin: 30px 50px -30px 13px;
+            position: absolute;
+            line-height: 30px;
+            text-align: center;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d67200+28,ff8119+50,ffb175+81 */
+background: linear-gradient(to bottom,  #d67200 28%,#ff8119 50%,#ffb175 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+        }
+
+        .menu4 {
+            width: 100px; height: 60px;
+            border: 3px solid orange;
+            left: 1px; top: 280px;
+            margin: 30px 50px -30px 13px;
+            position: absolute;
+            line-height: 30px;
+            text-align: center;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00d607+28,24ff19+50,7eff75+81 */
+background: linear-gradient(to bottom,  #00d607 28%,#24ff19 50%,#7eff75 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+        }
+
+        .content1 {
+            margin-left: 160px;
+            margin-top: 15px;
+            width: 430px; height: 300px;
+            border: 3px solid orange;
+        }
+
+        .content2 {
+            margin-left: 160px;
+            width: 430px; height: 100px;
+            border: 3px solid orange;
+            line-height: 60px;
+            text-align: center;
+        }
+
+        aside {
+            margin-top: 15px;
+            margin-right: 8px;
+            width: 134px; height: 406px;
+            border: 3px solid orange;
+            float: right;
+            text-align: center;
+            background-image: url('그림1.png')
+        }
+
+        .footer {
+            width: 750px; height: 100px;
+            margin-left: 23px;
+            margin-top: -40px;
+            border: 3px solid orange;
+            line-height: 60px;
+            text-align: center;
+            background-image: url('그림2.png')       
+        }
+
+        .red {
+            color: red;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        #aside  {
+            width: 85px;
+            border: 1px solid black;
+            font-size: 8px;
+            border-collapse: collapse;
+            margin-top: 8px;
+        }
+        #btn {
+            border-radius: 10px;
+            width: 100px;
+            height: 30px;
+            background-color: mediumaquamarine;
+            border: 0px;
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        <div class="header"><h1><span class="red">Welcome to</span><span class="blue"> My</span><span> Homepage</span></h1></div>
+        <div class="main">
+            <div class="menu">
+                <div class="menu1"><p>menu1</p></div>
+                <div class="menu2"><p>menu2</p></div>
+                <div class="menu3"><p>menu3</p></div>
+                <div class="menu4"><p>menu4</p></div>
+            </div>
+            <aside>
+                <table id="aside" border="1" style="width: 125px; height: 80px; font-size: 15px; margin-left: 5px;" >
+                    <tr>
+                        <td>아이디</th>
+                        <td style="color: white;">아이디</td>
+                    </tr>
+                    <tr>
+                        <td>비밀번호</td>
+                        <td style="color: white;">아이디</td>
+                    </tr>
+                    <tr>
+                        <td colspan='2'><input type="button" value="확인" id="btn"></td>
+                    </tr>
+                </table>
+            </aside>
+            <div class="content1">
+                <p><span class="red">HTML5</span>는 <a href="#">HTML</a>의 완전한 5번째 버전으로 월드 와이드 웹 (World Wide Web)의 핵심 <a href="#">마크업 언어</a>이다.2004년 7월 Web Hypertext Application Technology Working Group (WHATWG)에서 웹 애플리케이션 1.0이라는 이름으로 세부 명세 작업을 시작하였다.<br></p>
+                <h3>목차</h3>
+                <p>
+                    1. HTML4와의 차이점<br>
+                    2. 일정 및 역사<br>
+                    3. 브라우저 지원 현황<br>
+                    4. 같이 보기<br>
+                    5. 각주
+                </p>
+            </div>
+            <div class="content2"><h1>content2</h1></div>
+        </div>   
+        <div class="footer"></div>
+    </div>
+    </body>
+    </html>

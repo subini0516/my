@@ -522,7 +522,7 @@
 #       elif ans=='보':
 #            print('졌다')
 
-    #2-바위
+#     2-바위
 #    elif com==2:
 #        print('바위')
 #        if ans=='가위':
@@ -533,7 +533,7 @@
 #            print('이겼다')
 #            win=True
 
-    #3-보
+#     3-보
 #    elif com==3:
 #        print('보')
 #        if ans=='가위':
@@ -588,20 +588,20 @@
 
 
 
-score=[]
-value=0
-print('종료하려면 음수를 입력하세용')
+#score=[]
+#value=0
+#print('종료하려면 음수를 입력하세용')
 
-while value>=0:
-    value=int(input('성적입력:'))
-    if value>=0:
-        score.append(value)
+#while value>=0:
+#    value=int(input('성적입력:'))
+#    if value>=0:
+#        score.append(value)
 
-if len(score)>0:
-    sum=sum(score)
-    min=min(score)
-    max=max(score)
+# if len(score)>0:
+#     sum=sum(score)
+#     min=min(score)
+#     max=max(score)
 
-    print('최고 점수:', max)
-    print('최저 점수:', min)
-    print('평균 점수:', sum/len(score))
+#     print('최고 점수:', max)
+#     print('최저 점수:', min)
+#     print('평균 점수:', sum/len(score))

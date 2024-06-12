@@ -613,5 +613,117 @@
 
 
 
+# # a=[[1,2], [3,4], [5,6]]
+# print(a)
 
-안녕
+
+
+
+
+
+# a=[[1,2],
+#    [3,4],
+#    [5,6]]
+# print('a[0][0]:', a[[0][0]])
+# print('a[2][1]:', a[2][1])
+# a[1][0]=100
+# print('a[1][0]:', a[1][0])
+
+
+
+
+
+
+
+# a=[[1,2], [3,4], [5,6]]
+# for x,y in a:
+#     print(x,y)
+
+
+
+
+
+# a=[[1,2], [3,4], [5,6]]
+# for i in a:
+#     for j in i:
+#         print(j, end=' ')
+#     print()
+
+
+
+
+
+# a=[[1,2], [3,4], [5,6]]
+# i=0
+# while i<len(a):
+#     x,y=a[i]
+#     print(x,y)
+#     i+=1
+
+
+
+
+
+# a=[[1,2], [3,4], [5,6]]
+# i=0
+# while i<len(a):
+#     j=0
+#     while j<len(a[i]):
+#         print(a[i][j], end=' ')
+#         j+=1
+#     print()
+#     i+=1
+
+
+
+
+
+# from pprint import pprint
+# a=[[1,2], [3,4], [5,6]]
+# pprint(a, indent=1, width=20)
+
+
+
+
+
+# from pprint import pprint
+# a=[]
+# for i in range(3):
+#     list=[]
+#     for j in range(2):
+#         list.append(i*2+(j+1))
+#         a.append(list)
+# pprint(a, indent=1, width=20)
+
+
+
+
+
+
+
+
+# from pprint import pprint
+# a=[[i*2 + (j+1) for j in range(2)] for i in range(3)]
+# pprint(a, indent=1, width=20)
+
+
+
+
+
+
+students=[
+    ['Jojn', 80],
+    ['Ian', 95],
+    ['Alice', 70]
+]
+sum=0
+max_score=0
+
+for name, score in students:
+    sum+=score
+    if(score>max_score):
+        max_score=score
+        max_name=name
+print('퍙균:', sum/len(students))
+print('최고 성적 학생:', max_name)
+print('최고 성적 점수:', max_score)
